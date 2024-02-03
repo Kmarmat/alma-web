@@ -1,0 +1,59 @@
+.cards{
+    width: 490px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.927);
+  
+ 
+    box-shadow: 0 4px 8px rgba(8, 8, 8, 0.295);
+    box-sizing: border-box;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease;
+   &:hover{
+    transform: scale(1.05);
+   }
+    .btn{
+        position: absolute;
+        bottom: 0;
+      
+        right: 0;
+        background-color: black;
+        color: white;
+        display: flex;
+        cursor: pointer;
+        padding: 10px 20px;
+        border-radius: 20px 0px 10px 0px;
+    }
+    .w-row{
+        
+        display: flex;
+        align-items: center;
+      
+        justify-content: center;
+        padding: 10px 30px 100px 30px;
+        gap: 15px;
+        .columnImg{
+           img{
+             border-radius: 10px;
+           }
+        }
+        .medical-api{
+            padding: 70px 0px 0px 0px;
+            .heading-10{
+                color: #151515;
+                font-size: 29px;
+                font-weight: 500;
+                line-height: 29px;
+            }
+            .paragraph-8{
+                color: #4b4a4a;
+                font-size: 18px;
+            }
+        }
+       
+    }
+}
