@@ -8,20 +8,20 @@ const LayoutGrid = () => {
             <div className="layoutGrid">
                 <div className="left-layoutGrid">
                     <div className="text-box">
-                        <h4 className="heading-7 ">Universal API for <span className="text-span-8">Healthcare Data</span></h4>
+                        <h4 className="heading-7 ">Introducing Care<span className="text-span-8"> <br />For schools, institutions and universities.</span></h4><br />
                         <p className="paragraph large">
-                            <span>Get comprehensive <strong>patient medical data in seconds</strong>, not weeks.</span>
+                            <span>Track your children's wellness and deliver care support to parents. Alma offers end-to-end solution to access actionable insights, foster better childcare practices and nurturing enviornment for your little ones.</span>
                         </p>
                         <a href="https://docs.google.com/forms/d/1nyCWU-hRHGOyLB0nZiikaSmeWMx4N_TeJMQ9mwnt0WY/prefill" target="_blank" rel="noopener noreferrer" className="book-demo" previewlistener="true">
-                            Try Alma
+                            Try it Now!
                         </a>
 
 
-                    </div>
                 </div>
-                <div className="right-layoutGrid">  
-                    
-                     </div>
+                    </div>
+                        <div className="right-layoutGrid">
+                            
+                    </div>
             </div>
 
         </div>

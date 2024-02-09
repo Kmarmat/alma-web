@@ -1,28 +1,34 @@
 import React from 'react'
 import "./section23.scss"
-import Cards from '../cards/Cards.jsx'
+import Cards from '../cards/Cards'
 const Section23 = () => {
   let data = [
     {
       id:1,
-      heading:"Medical API",
-      desc:"Comprehensive patient data at the point-of-care, via a modern FHIR-native API.",
-      src:"https://assets-global.website-files.com/640036547d68f8c201789d8c/650c5de50467d2f1312040c6_MAPI%20photo.png",
-      srcSet:"https://assets-global.website-files.com/640036547d68f8c201789d8c/650c5de50467d2f1312040c6_MAPI%20photo-p-500.png"
+      heading:"Ted",
+      desc:"Don't let manual administration slow you down. Ted automates your workflow and seamlessly integrates to legacy systems. Care delivery made simple, fast and easier with AI. ",
+      src:"https://firebasestorage.googleapis.com/v0/b/eacc-16da4.appspot.com/o/WhatsApp%20Image%202024-02-07%20at%2011.38.07.jpeg?alt=media&token=0dce5643-d431-4dd0-8c77-984bfcec8ce2"
     },
     {
       id:2,
-      heading:"Dashboard",
-      desc:"No-code provider dashboard for streamlined patient medical record access.",
-      src:"https://assets-global.website-files.com/640036547d68f8c201789d8c/650b96d2733b9e13f47703fa_Screenshot%202023-09-20%20at%206.05.10%20PM.png",
-      srcSet:"https://assets-global.website-files.com/640036547d68f8c201789d8c/650b96d2733b9e13f47703fa_Screenshot%202023-09-20%20at%206.05.10%20PM-p-500.png"
+      heading:"Wellness Insight ",
+      desc:"Lay a strong foundation for Parent relationship. Care delivers rich wellness insights to parents fostering an informative and preventative enviornment for childcare management.",
+      src:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStoDZGkc9DcRcRogMVRDCjLfKpdtJqLDV8dEHLgGFWxSAHUBJQbnOgKd9CU8Vmp49oeKY&usqp=CAU"
     },
+    {
+      id:3,
+      heading:"Free Consultancy",
+      desc:"We help parents understand their policy, get answers to their burning questions, and help with claims if they ever have to use their policy, all at the same place.",
+      src:"https://static.vecteezy.com/system/resources/thumbnails/000/966/159/small/doctor-consulting-with-patient.jpg"
+
+    }
   ]
   return (
     <div className='section23'>
     <Cards data={data[0]}/>
   
     <Cards data={data[1]}/>
+    <Cards data={data[2]}/>
     </div>
   )
 }

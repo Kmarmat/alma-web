@@ -39,7 +39,12 @@ const Footer = () => {
         </MDBBtn>
       </section>
     </MDBContainer>
- 
+    <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+        &copy; REACH US AT :   
+        <a className='text-white mr-1' href='mailto:support@tryalma.in'>
+         support@tryalma.in
+        </a>
+      </div>
     
   </MDBFooter>
   )

@@ -1,16 +1,19 @@
 
 import './App.css';
-import NavBar from './components/Navbar/NavBar';
-import Footer from './components/footer/Footer';
-import LayoutGrid from './components/layout-grid/LayoutGrid';
-import Section23 from './components/section-23/Section23';
+import { Route,Routes} from "react-router-dom"
+import Home from './page/Home';
+import Form from './page/Form/Form'
 function App() {
   return (
     <div className="App">
-   <NavBar/>
-     <LayoutGrid/>
-     <Section23/>
-     <Footer/>
+      <Routes>
+        <Route path='/'>
+          <Route index element={<Home/>}/>
+          <Route path='form' element={<Form/>}/>
+        </Route>
+        
+      </Routes>
+      
     </div>
   );
 }

@@ -1,11 +1,17 @@
 import "./cards.scss"
 import React from 'react'
 
+
+
+
+
 const Cards = ({data}) => {
   return (
+
     <div className="cards">
 
       <div className="w-row">
+          <div></div>
         <div className="columnImg">
           <img
             src={data.src}
@@ -28,16 +34,10 @@ const Cards = ({data}) => {
           </p>
         </div>
       </div>
-      <div className="btn">
-        <div className="text-block">Learn More</div>
-        <img
-          src="https://assets-global.website-files.com/640036547d68f8c201789d8c/64bc7e7c913366cc343f4f15_arrow-up-right.svg"
-          loading="lazy"
-          alt="Up arrow icon"
-        />
-      </div>
+      
   
     </div>
+    
   )
 }
 
